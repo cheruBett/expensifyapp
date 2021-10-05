@@ -10,12 +10,6 @@ import getVisibleItems from "./selectors/expenses";
 // import reportWebVitals from "./reportWebVitals";
 
 const store = configureStore();
-//addExpense
-//teabill
-
-store.dispatch(addExpense({ description: "Water bill", amount: 4500 }));
-store.dispatch(addExpense({ description: "Gas bill", createdAt: 1000 }));
-store.dispatch(addExpense({ description: "Rent", amount: 109500 }));
 
 ///..getVisibleItems-->print visible items on screen
 const state = store.getState();
